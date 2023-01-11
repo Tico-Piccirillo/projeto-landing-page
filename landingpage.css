@@ -1,0 +1,111 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #232323;
+    color: white;
+    font-family: 'Poppins' ;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#titulo {
+    flex-direction: column;
+   gap: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 30px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color:  rgb(132, 14, 201);
+    transition: .5s all;
+}
+
+#jatem-btn {
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#jatem-btn:hover {
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+
+
+h1 {
+    font-weight: 300;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+h2 {
+    font-size: 56px;
+    font-family: 'Poppins';
+}
+span {
+    color: rgb(132, 14, 201);
+}
+
+p {
+   max-width: 500px;  
+   font-family: 'poppins';
+}
+
+img {
+    width: 560px;
+    margin-left: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #63038C;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
